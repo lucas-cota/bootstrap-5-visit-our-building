@@ -1,0 +1,21 @@
+@import "./variables/variables.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* custom css */
+
+@import "background-image";
+@import "colors";
+@import "buttons";
+
+.card {
+    border: none;
+}
+
+.card-body{
+    background-color: $gray-800;
+    color: $white;
+}
+
+.card-body p {
+    color: $gray-500;
+}
